@@ -2,7 +2,6 @@
   <div class="Home">
     <h3>Search Comic API</h3>
     <ComicList/>
-    <h3>by: Ismael Bolaños Garcìa</h3>
   </div>
 </template>
 
@@ -28,6 +27,15 @@ export default {
   background: #bd1023;
   color: white;
   width: 100%;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+li{
+  margin-left: 10px;
 }
 h1,h2,h3 {
   display: flex;
